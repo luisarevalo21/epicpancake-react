@@ -23,9 +23,9 @@ a:hover {
   margin-top: 10px;
 }
 
-.navbar-light .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;..");
-}
+/* .navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml");
+} */
 
 .nav-link {
   color: #48e08d !important;
@@ -38,6 +38,11 @@ a:hover {
 .active {
   background-color: white;
 }
+
+/* .responsive-navbar-nav {
+  color: white;
+  background-color: white !important;
+} */
 /* .nav-link {
   color: red;
 }
