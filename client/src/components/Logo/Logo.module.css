@@ -1,0 +1,30 @@
+/* .Logo {
+  background-color: red;
+  padding: 8px;
+  box-sizing: border-box;
+  border-radius: 5px;
+} */
+
+/* mobile */
+.Logo {
+  width: 213px;
+  height: 56px;
+  background-color: #1c2630;
+}
+background {
+  background-color: #1c2630;
+}
+
+@media (min-width: 500px) {
+  /* .Logo {
+    background-color: red;
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: 5px;
+  } */
+
+  .Logo {
+    width: 224px;
+    height: 58px;
+  }
+}

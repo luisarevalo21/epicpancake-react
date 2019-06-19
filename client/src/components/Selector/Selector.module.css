@@ -1,0 +1,11 @@
+/* .Select {
+  color: red;
+} */
+
+.Select:disabled {
+  color: blue;
+  margin-bottom: 1rem;
+}
+.Selector {
+  margin-bottom: 1rem;
+}

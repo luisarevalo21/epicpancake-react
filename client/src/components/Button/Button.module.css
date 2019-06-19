@@ -1,0 +1,33 @@
+.Button {
+  width: 100%;
+  background: #48e08d;
+  height: 40px;
+}
+.Button:hover {
+  background: #48cfe0;
+}
+
+/* .tooltip {
+  font-family: "Roboto", sans-serif !important;
+}
+
+.tooltip-inner {
+  background: #1c2630;
+  font-weight: bold;
+  width: 100%;
+  padding: 0.6rem 0.75rem;
+  line-height: 28px;
+  border-radius: 100px;
+  right: 20px;
+  position: relative;
+} */
+.popover {
+  background: #1c2630;
+  font-weight: bold;
+  width: 100%;
+  padding: 0.6rem 0.75rem;
+  line-height: 28px;
+  border-radius: 100px;
+  right: 20px;
+  position: relative;
+}

@@ -1,0 +1,18 @@
+/* .Select-menu-outer {
+  .Select-option {
+    padding-left: 2em;
+  }
+} */
+
+.Label {
+  background-color: black !important;
+}
+
+#overlay-example {
+  background: #1c2630;
+  font-weight: bold;
+  width: 100%;
+}
+#overlay-example::after:focus {
+  display: none;
+}
