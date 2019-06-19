@@ -8,6 +8,7 @@ import Welcome from "./components/Welcome/Welcome";
 
 class App extends Component {
   // state = {
+  //test
   //   pokemonOptions: [],
   //   gymOptions: [],
   //   time: "",
