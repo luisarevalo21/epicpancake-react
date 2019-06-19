@@ -2,6 +2,8 @@
   width: 100%;
   background: #48e08d;
   height: 40px;
+  margin-top: 1.5rem;
+  border-radius: 0.25rem;
 }
 .Button:hover {
   background: #48cfe0;
