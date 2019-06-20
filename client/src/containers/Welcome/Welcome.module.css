@@ -1,0 +1,23 @@
+/* //makes entire divs white */
+
+.Header {
+  margin-top: 1rem;
+}
+.Welcome {
+  color: white;
+}
+
+/* ul {
+  list-style: none;
+}
+ul li a {
+  color: #48e08d;
+  padding: 5px 0px 0px 5px;
+} */
+.List {
+  list-style: none;
+  padding: 5px 0px 0px 5px;
+}
+.List a {
+  color: #48e08d;
+}

@@ -4,7 +4,7 @@ import RaidBuilder from "./containers/RaidBuilder/RaidBuilder";
 import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
 import { Route, Switch } from "react-router-dom";
-import Welcome from "./components/Welcome/Welcome";
+import Welcome from "./containers/Welcome/Welcome";
 
 class App extends Component {
   // state = {
