@@ -25,7 +25,7 @@ class Welcome extends Component {
         name: "@TorenaOne / Oné ⚡️36",
         link: ""
       },
-      { name: "@KillaKyla / Kyla 🔥40", link: "" },
+      { name: "@KillaKyla / Kyla 🔥40", link: "https://t.me/killakyla" },
       { name: "@Luisarevalo21 / Luis A ❄️40", link: "" },
       {
         name: "Katie 🔥38",
@@ -33,19 +33,19 @@ class Welcome extends Component {
       },
       {
         name: "@SteveHella / Steven ❄️40",
-        link: ""
+        link: "https://t.me/SteveHella"
       },
       {
         name: "@Ghardhar / Gary 🔥40",
-        link: ""
+        link: "https://t.me/Ghardhar"
       },
       {
         name: "@VivaLasViolence / Ian G 🔥40",
-        link: ""
+        link: "https://t.me/"
       },
       {
         name: "@PookieMom / Marianne 🔥40",
-        link: ""
+        link: "https://t.me/PookieMom"
       }
     ]
   };
