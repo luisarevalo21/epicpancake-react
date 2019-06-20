@@ -29,15 +29,31 @@ a:hover {
 
 .nav-link {
   color: #48e08d !important;
+  display: none;
 }
-
+/* 
+a {
+  color: #48e08d !important;
+  margin-left: auto;
+  color: white;
+  text-decoration: underline !important;
+  margin-top: 10px;
+  padding: 0.5rem 1rem;
+  display: block;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+}
+a:hover {
+  color: #007bff !important;
+  text-decoration: underline !important;
+} */
 .nav-link:hover {
   color: #007bff !important;
   text-decoration: underline !important;
 }
-.active {
+/* .active {
   background-color: white;
-}
+} */
 
 /* .responsive-navbar-nav {
   color: white !important;

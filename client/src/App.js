@@ -5,6 +5,7 @@ import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
 import { Route, Switch } from "react-router-dom";
 import Welcome from "./containers/Welcome/Welcome";
+import { BrowserRouter } from "react-router-dom";
 
 class App extends Component {
   // state = {
@@ -58,6 +59,15 @@ class App extends Component {
         <Switch>
           <Route exact path="/" component={RaidBuilder} />
           <Route path="/welcome" component={Welcome} />
+          {/* <Route
+            exact
+            // path="/https://www.paypal.me/theepicpancake"
+            // component={() => {
+            //   BrowserRouter.replace("/https://www.paypal.me/theepicpancake");
+            //   window.location.href = "https://www.paypal.me/theepicpancake";
+            //   return null;
+            // }}    window.location.replace('http://www.google.com')
+          /> */}
         </Switch>
       </div>
     );

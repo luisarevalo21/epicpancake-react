@@ -5,48 +5,24 @@ import Paragraph from "../../components/Paragraph/Paragraph";
 class Welcome extends Component {
   state = {
     admins: [
-      {
-        name: "@Pokedot / Lily 🔥40",
-        link: "https://t.me/Pokedot"
-      },
+      { name: "@Pokedot / Lily 🔥40", link: "https://t.me/Pokedot" },
       {
         name: "@SunkenDemon / Raymond ⚡️40",
         link: "https://t.me/SunkenDemon"
       },
-      {
-        name: "@Donjuan0236 / Juan 🔥40",
-        link: "https://t.me/Donjuan0236"
-      },
+      { name: "@Donjuan0236 / Juan 🔥40", link: "https://t.me/Donjuan0236" },
       {
         name: "@ChicagoPeace / Dave N ❄️40",
         link: "https://t.me/ChicagoPeace"
       },
-      {
-        name: "@TorenaOne / Oné ⚡️36",
-        link: ""
-      },
+      { name: "@TorenaOne / Oné ⚡️36", link: "" },
       { name: "@KillaKyla / Kyla 🔥40", link: "https://t.me/killakyla" },
       { name: "@Luisarevalo21 / Luis A ❄️40", link: "" },
-      {
-        name: "Katie 🔥38",
-        link: ""
-      },
-      {
-        name: "@SteveHella / Steven ❄️40",
-        link: "https://t.me/SteveHella"
-      },
-      {
-        name: "@Ghardhar / Gary 🔥40",
-        link: "https://t.me/Ghardhar"
-      },
-      {
-        name: "@VivaLasViolence / Ian G 🔥40",
-        link: "https://t.me/"
-      },
-      {
-        name: "@PookieMom / Marianne 🔥40",
-        link: "https://t.me/PookieMom"
-      }
+      { name: "Katie 🔥38", link: "" },
+      { name: "@SteveHella / Steven ❄️40", link: "https://t.me/SteveHella" },
+      { name: "@Ghardhar / Gary 🔥40", link: "https://t.me/Ghardhar" },
+      { name: "@VivaLasViolence / Ian G 🔥40", link: "https://t.me/" },
+      { name: "@PookieMom / Marianne 🔥40", link: "https://t.me/PookieMom" }
     ]
   };
   render() {

@@ -48,14 +48,24 @@ const navbar = props => (
           Ex Gyms
         </Nav.Link>
         <Nav.Link
-          as={NavLink}
-          to="/DONATE"
+          target="_blank"
+          href="https://www.paypal.me/theepicpancake"
           activeStyle={{
-            backgroundColor: "white"
+            backgroundColor: "red !important"
           }}
         >
           Donate
         </Nav.Link>
+        {/* <Nav.Link
+          as={NavLink}
+          to="https://www.paypal.me/theepicpancake"
+          activeStyle={{
+            backgroundColor: "white"
+          }}
+          target="_blank"
+        >
+          Donate
+        </Nav.Link> */}
       </Nav>
     </Navbar.Collapse>
   </Navbar>
