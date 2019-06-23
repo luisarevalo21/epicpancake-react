@@ -130,7 +130,6 @@ class ExGyms extends Component {
           </button>
           {/* </Link> */}
         </div>
-
         <a href="https://telegra.ph/PokeRaiderBot-09-16">
           To learn more about @PokeRaiderBot and what commands you can use,
           click here.
