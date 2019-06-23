@@ -1,0 +1,113 @@
+.Gym {
+  color: white;
+  margin-top: 1rem;
+  font-size: 1.5em;
+}
+
+.List {
+  border-radius: 3px;
+  margin-top: 2rem;
+}
+
+.List ul {
+  padding: 1em;
+  border-radius: 0.25em;
+}
+.List li {
+  display: block;
+  padding: 0.25em;
+  border-top: 1px solid #1c2630;
+  border-bottom: 1px solid #1c2630;
+}
+.InstinctList {
+  color: #fff5a6;
+}
+.MysticList {
+  color: #a6e9ff;
+}
+.ValorList {
+  color: #ffbfbf;
+}
+.Gym_date_time {
+  color: #6c7d8e;
+  padding: 0.25em;
+}
+/* 
+.Gym_Container {
+  background: #182029;
+  border-radius: 3px;
+}
+
+.Gym_Container ul {
+  padding: 1em;
+  border-radius: 0.25em;
+}
+.Gym_Container li {
+  display: block;
+  padding: 0.25em;
+  border-top: 1px solid #1c2630;
+  border-bottom: 1px solid #1c2630;
+}
+
+/* .List {
+  padding: 1em;
+  border-radius: 0.25em;
+  padding: 1em;
+  border-radius: 0.25em;
+} */
+/* .Gym ul {
+  padding: 1em;
+  border-radius: 0.25em;
+}
+.Gym li {
+  display: block;
+  padding: 0.25em;
+  border-top: 1px solid #1c2630;
+  border-bottom: 1px solid #1c2630;
+}
+.Gym_date_time {
+  color: #6c7d8e;
+  padding: 0.25em;
+}
+
+.ValorList {
+  color: #ffbfbf;
+}
+.MysticList {
+  color: #a6e9ff;
+} */
+/* .InstinctList {
+  color: #fff5a6;
+  padding: 1em;
+  border-radius: 0.25em;
+  display: block;
+  padding: 0.25em;
+  border-top: 1px solid #1c2630;
+  border-bottom: 1px solid #1c2630;
+} */
+
+/* .InstinctList ul {
+  padding: 1em;
+  border-radius: 0.25em;
+} */
+
+/* .InstinctList li {
+  display: block;
+  padding: 0.25em;
+  border-top: 1px solid #1c2630;
+  border-bottom: 1px solid #1c2630;
+}
+#location-list li {
+  padding: 0.75em 0.25em;
+}
+#raidlist {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: -9999px;
+}
+
+.w3-container {
+  background: #182029;
+  border-radius: 3px;
+} */

@@ -40,7 +40,7 @@ const navbar = props => (
         </Nav.Link>
         <Nav.Link
           as={NavLink}
-          to="/EXGYMS"
+          to="/ex"
           activeStyle={{
             backgroundColor: "white"
           }}

@@ -5,7 +5,8 @@ import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
 import { Route, Switch } from "react-router-dom";
 import Welcome from "./containers/Welcome/Welcome";
-import { BrowserRouter } from "react-router-dom";
+import ExGyms from "./containers/Ex_Gyms/ExGyms";
+import Gym from "./containers/Gym/Gym";
 
 class App extends Component {
   // state = {
@@ -59,6 +60,8 @@ class App extends Component {
         <Switch>
           <Route exact path="/" component={RaidBuilder} />
           <Route path="/welcome" component={Welcome} />
+          <Route path="/ex/:gymId" component={Gym} />
+          <Route path="/ex" component={ExGyms} />
           {/* <Route
             exact
             // path="/https://www.paypal.me/theepicpancake"

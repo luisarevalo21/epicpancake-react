@@ -1,0 +1,93 @@
+/* ul {
+  list-style-type: disc;
+  padding: 1em;
+  border-radius: 0.25em;
+  margin-left: 0px;
+  margin-right: 0px;
+  background-color: #182029;
+  color: #fff;
+}
+li {
+  text-align: -webkit-match-parent;
+  color: #fff;
+  display: block;
+  border-top: 1px solid #1c2630;
+  border-bottom: 1px solid #1c2630;
+  padding: 0.75em 0.25em;
+  width: 100%;
+  color: #87cefa;
+}
+a {
+  color: #fff !important;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #87cefa !important;
+}
+.newStyle {
+  color: #48e08d !important;
+} */
+.ExGyms {
+  color: #fff;
+  margin-top: 1rem;
+}
+.Button_Div {
+  margin-top: 1rem;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.Button {
+  font-weight: bold;
+  color: #fff;
+  width: 100%;
+  margin-top: 1.5rem;
+  padding: 1rem 0.75rem;
+  line-height: 28px;
+  min-height: 60px;
+  border-radius: 0.25rem;
+  background: linear-gradient(135deg, #48e08d 0%, #48cfe0 100%);
+}
+.Button:hover {
+  background: #48cfe0;
+}
+.ExGyms ul {
+  list-style-type: disc;
+  padding: 1em;
+  border-radius: 0.25em;
+  margin-left: 0px;
+  margin-right: 0px;
+  background-color: #182029;
+  color: #fff;
+}
+
+.ExGyms li {
+  text-align: -webkit-match-parent;
+  color: #fff;
+  display: block;
+  border-top: 1px solid #1c2630;
+  border-bottom: 1px solid #1c2630;
+  padding: 0.75em 0.25em;
+  width: 100%;
+  color: #87cefa;
+}
+.ExGyms a {
+  color: #fff;
+}
+
+.Links {
+  color: #87cefa;
+  text-decoration: none !important;
+}
+.ExGyms a:hover {
+  text-decoration: underline;
+  color: #87cefa;
+}
+
+.newStyle {
+  color: #48e08d !important;
+}
+.newStyle:hover {
+  color: #87cefa !important;
+}

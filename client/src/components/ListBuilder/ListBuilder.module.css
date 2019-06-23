@@ -1,0 +1,22 @@
+/* .ListBuilder {
+  display: block;
+  padding: 0.25em;
+  border-top: 1px solid #1c2630;
+  border-bottom: 1px solid #1c2630;
+  color: #fff5a6;
+} */
+.List {
+  background: #182029;
+  border-radius: 3px;
+}
+
+.List ul {
+  padding: 1em;
+  border-radius: 0.25em;
+}
+.List li {
+  display: block;
+  padding: 0.25em;
+  border-top: 1px solid #1c2630;
+  border-bottom: 1px solid #1c2630;
+}
