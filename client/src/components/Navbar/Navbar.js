@@ -2,7 +2,6 @@ import React from "react";
 import { Navbar, Nav, NavItem } from "react-bootstrap/";
 import "./Navbar.css";
 import Logo from "../Logo/Logo";
-import { LinkContainer } from "react-bootstrap";
 import { NavLink, Link } from "react-router-dom";
 const navbar = props => (
   <Navbar collapseOnSelect expand="md" className="navbar-dark navbar-custom">
@@ -19,7 +18,7 @@ const navbar = props => (
       <Nav style={{ color: "red" }}>
         {/* <NavLink to="/">Home</NavLink>
       <NavLink to="/welcome">Welcome</NavLink> */}
-        <NavLink
+        <Nav.Link
           as={NavLink}
           exact
           to="/"
@@ -28,8 +27,8 @@ const navbar = props => (
           }}
         >
           Home
-        </NavLink>
-        <NavLink
+        </Nav.Link>
+        <Nav.Link
           as={NavLink}
           to="/welcome"
           activeStyle={{
@@ -37,8 +36,8 @@ const navbar = props => (
           }}
         >
           Welcome
-        </NavLink>
-        <NavLink
+        </Nav.Link>
+        <Nav.Link
           as={NavLink}
           to="/ex"
           activeStyle={{
@@ -46,8 +45,9 @@ const navbar = props => (
           }}
         >
           Ex Gyms
-        </NavLink>
-        <NavLink
+        </Nav.Link>
+        <Nav.Link
+          as={NavLink}
           target="_blank"
           href="https://www.paypal.me/theepicpancake"
           activeStyle={{
@@ -55,7 +55,7 @@ const navbar = props => (
           }}
         >
           Donate
-        </NavLink>
+        </Nav.Link>
         {/* <Nav.Link
           as={NavLink}
           to="https://www.paypal.me/theepicpancake"
