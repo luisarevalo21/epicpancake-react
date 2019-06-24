@@ -16,21 +16,39 @@ a:hover {
 }
  */
 
-.navbar-nav {
-  margin-left: auto;
+/* NavLink {
+  color: red;
+} */
+
+.nav-item a {
+  color: #48e08d;
+  display: block;
+}
+.nav-item {
   color: white;
   text-decoration: underline !important;
   margin-top: 10px;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+}
+.navbar-nav {
+  margin-left: auto;
 }
 
+@media (min-width: 500px) {
+  .nav-item a.active {
+    padding: 0.5rem 1rem;
+    background-color: #fff;
+  }
+}
 /* .navbar-light .navbar-toggler-icon {
   background-image: url("data:image/svg+xml");
 } */
 
-.nav-link {
+/* .nav-link {
   color: #48e08d !important;
   display: none;
-}
+} */
 /* 
 a {
   color: #48e08d !important;

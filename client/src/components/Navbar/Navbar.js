@@ -15,21 +15,40 @@ const navbar = props => (
 
       {/* <Navbar.Brand href="/home"> */}
       {/* </Navbar.Brand> */}
-      <Nav style={{ color: "red" }}>
-        {/* <NavLink to="/">Home</NavLink>
+      {/* <Nav> */}
+      {/* <NavLink to="/">Home</NavLink>
       <NavLink to="/welcome">Welcome</NavLink> */}
-        <Nav.Link
-          as={NavLink}
+      <Nav>
+        {/* <Nav.Link
           exact
+          as={NavLink}
           to="/"
           activeStyle={{
             backgroundColor: "white"
           }}
         >
           Home
-        </Nav.Link>
-        <Nav.Link
-          as={NavLink}
+        </Nav.Link> */}
+        <NavItem>
+          <NavLink exact to="/" activeStyle={{ backgroundColor: "#fff" }}>
+            Home
+          </NavLink>
+        </NavItem>
+        <NavItem>
+          <NavLink to="/welcome" activeStyle={{ backgroundColor: "#fff" }}>
+            Welcome
+          </NavLink>
+        </NavItem>
+        <NavItem>
+          <NavLink to="/ex" activeStyle={{ backgroundColor: "#fff" }}>
+            Ex Gyms
+          </NavLink>
+        </NavItem>
+        <NavItem>
+          <NavLink to="/donate">Donate</NavLink>
+        </NavItem>
+      </Nav>
+      {/* <Nav.Link
           to="/welcome"
           activeStyle={{
             backgroundColor: "white"
@@ -55,8 +74,9 @@ const navbar = props => (
           }}
         >
           Donate
-        </Nav.Link>
-        {/* <Nav.Link
+        </Nav.Link> */}
+
+      {/* <Nav.Link
           as={NavLink}
           to="https://www.paypal.me/theepicpancake"
           activeStyle={{
@@ -66,7 +86,7 @@ const navbar = props => (
         >
           Donate
         </Nav.Link> */}
-      </Nav>
+      {/* </Nav> */}
     </Navbar.Collapse>
   </Navbar>
 );
