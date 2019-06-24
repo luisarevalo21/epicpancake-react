@@ -3,7 +3,7 @@ import { Navbar, Nav, NavItem } from "react-bootstrap/";
 import "./Navbar.css";
 import Logo from "../Logo/Logo";
 import { LinkContainer } from "react-bootstrap";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 const navbar = props => (
   <Navbar collapseOnSelect expand="md" className="navbar-dark navbar-custom">
     <Logo />
@@ -29,7 +29,7 @@ const navbar = props => (
         >
           Home
         </Nav.Link>
-        <Nav.Link
+        <Link
           as={NavLink}
           to="/welcome"
           activeStyle={{
@@ -37,7 +37,7 @@ const navbar = props => (
           }}
         >
           Welcome
-        </Nav.Link>
+        </Link>
         <Nav.Link
           as={NavLink}
           to="/ex"
