@@ -19,7 +19,7 @@ const navbar = props => (
       <Nav style={{ color: "red" }}>
         {/* <NavLink to="/">Home</NavLink>
       <NavLink to="/welcome">Welcome</NavLink> */}
-        <Nav.Link
+        <NavLink
           as={NavLink}
           exact
           to="/"
@@ -28,8 +28,8 @@ const navbar = props => (
           }}
         >
           Home
-        </Nav.Link>
-        <Link
+        </NavLink>
+        <NavLink
           as={NavLink}
           to="/welcome"
           activeStyle={{
@@ -37,8 +37,8 @@ const navbar = props => (
           }}
         >
           Welcome
-        </Link>
-        <Nav.Link
+        </NavLink>
+        <NavLink
           as={NavLink}
           to="/ex"
           activeStyle={{
@@ -46,8 +46,8 @@ const navbar = props => (
           }}
         >
           Ex Gyms
-        </Nav.Link>
-        <Nav.Link
+        </NavLink>
+        <NavLink
           target="_blank"
           href="https://www.paypal.me/theepicpancake"
           activeStyle={{
@@ -55,7 +55,7 @@ const navbar = props => (
           }}
         >
           Donate
-        </Nav.Link>
+        </NavLink>
         {/* <Nav.Link
           as={NavLink}
           to="https://www.paypal.me/theepicpancake"
