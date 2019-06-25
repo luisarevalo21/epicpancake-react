@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import classes from "./ExGyms.module.css";
 import { Link } from "react-router-dom";
 import Tabletop from "tabletop";
+import Spinner from "../../components/Spinner/Spinner";
+import Modal from "../Modal/Modal";
 
 class ExGyms extends Component {
   state = {
@@ -54,7 +56,8 @@ class ExGyms extends Component {
         listName: "Starbucks, San Pablo Dam Rd. location (El Sob/San Pablo)"
       }
     ],
-    active_gyms: []
+    active_gyms: [],
+    loading: true
   };
 
   componentDidMount() {
@@ -73,7 +76,7 @@ class ExGyms extends Component {
         active.push(element.listName);
       }
     });
-    this.setState({ active_gyms: active });
+    this.setState({ active_gyms: active, loading: false });
 
     // this.state.gyms.map(elemenet => {
     //   active.push(elemenet);
@@ -85,6 +88,10 @@ class ExGyms extends Component {
     window.location.href = "https://goo.gl/forms/5fhu41K2qYhgkeTx2";
   };
   render() {
+    let spinner = null;
+    if (this.state.loading) {
+      spinner = <Spinner />;
+    }
     const list = this.state.gyms.map(element => {
       const names = this.state.active_gyms.includes(element.listName)
         ? `${classes.newStyle}`
@@ -122,6 +129,8 @@ class ExGyms extends Component {
     return (
       <div className={classes.ExGyms}>
         <h1>Ex Raid Gyms</h1>
+        {/* remove if need be */}
+        {/* <Modal show={this.state.loading} /> */}
         <ul>{list}</ul>
         <div className={classes.Button_Div}>
           {/* <Link to="https://docs.google.com/forms/d/e/1FAIpQLSfYRLhE5BUMlLOGo9Jykq023zLSYnFXTFamf0uKg6x8teRl4w/viewform"> */}

@@ -5,7 +5,7 @@ import Logo from "../Logo/Logo";
 import { NavLink, Link } from "react-router-dom";
 const navbar = props => (
   <Navbar collapseOnSelect expand="md" className="navbar-dark navbar-custom">
-    <Logo />
+    <Logo type="logo" />
 
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav">

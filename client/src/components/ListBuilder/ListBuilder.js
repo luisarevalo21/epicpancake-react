@@ -1,6 +1,7 @@
 import React from "react";
 import classes from "./ListBuilder.module.css";
-
+import Logo from "../Logo/Logo";
+import ValorImage from "../../assets/images/Team_Valor.png";
 const listBuilder = props => {
   console.log(props.list);
   let list = null;
@@ -61,6 +62,7 @@ const listBuilder = props => {
 
   return (
     <div className={[classes.List, "container"].join(" ")}>
+      <Logo src={ValorImage} type="team" />
       <ul>{list} </ul>
     </div>
   );

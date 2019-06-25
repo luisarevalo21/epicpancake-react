@@ -28,3 +28,15 @@ background {
     height: 58px;
   }
 }
+
+.TeamLogo {
+  background-color: black;
+  border-radius: 10%;
+  width: 3rem;
+  padding: 5px;
+
+  /* height: 70px; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
