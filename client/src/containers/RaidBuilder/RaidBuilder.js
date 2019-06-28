@@ -145,7 +145,7 @@ class RaidBuilder extends Component {
     //   { value: "pile1", label: "Pile 1" }
     // ];
     return (
-      <div className="container">
+      <div>
         <Selector
           label="Raid Boss"
           changed={val => this.handleChange("selectedRaidBoss", val)}
@@ -176,7 +176,7 @@ class RaidBuilder extends Component {
         >
           <button>Click here to show popup</button>
         </Tooltip> */}
-        <Button clicked={this.handleClick} />
+        <Button clicked={this.handleClick} type="copy"/>
         {/* <label style={{ color: "#6c7d8e" }}>Start Time</label>
         {/* <div className="form-group"> */}
         {/* <input

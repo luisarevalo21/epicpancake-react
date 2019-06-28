@@ -22,11 +22,17 @@ a:hover {
 
 .nav-item a {
   color: #48e08d;
-  display: block;
+  /* display: block; */
+}
+.nav-item a.active {
+  /* padding: 0.5rem 1rem; */
+  text-decoration: none !important;
+  color: #fff !important ;
+  font-weight: bold;
 }
 .nav-item {
   color: white;
-  text-decoration: underline !important;
+  text-decoration: none !important;
   margin-top: 10px;
   padding-right: 0.5rem;
   padding-left: 0.5rem;
@@ -38,7 +44,10 @@ a:hover {
 @media (min-width: 500px) {
   .nav-item a.active {
     padding: 0.5rem 1rem;
-    background-color: #fff;
+    text-decoration: none !important;
+    color: #fff !important ;
+    font-weight: bold;
+    /* background-color: #fff; */
   }
 }
 /* .navbar-light .navbar-toggler-icon {
@@ -66,7 +75,7 @@ a:hover {
   text-decoration: underline !important;
 } */
 .nav-link:hover {
-  color: #007bff !important;
+  color: #fff !important;
   text-decoration: underline !important;
 }
 /* .active {

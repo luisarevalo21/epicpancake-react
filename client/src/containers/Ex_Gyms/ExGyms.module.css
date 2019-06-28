@@ -38,7 +38,7 @@ a:hover {
   margin-bottom: 1rem;
 }
 
-.Button {
+/* .Button {
   font-weight: bold;
   color: #fff;
   width: 100%;
@@ -48,10 +48,11 @@ a:hover {
   min-height: 60px;
   border-radius: 0.25rem;
   background: linear-gradient(135deg, #48e08d 0%, #48cfe0 100%);
+  border: none;
 }
 .Button:hover {
   background: #48cfe0;
-}
+} */
 .ExGyms ul {
   list-style-type: disc;
   padding: 1em;

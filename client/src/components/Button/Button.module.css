@@ -1,9 +1,14 @@
 .Button {
+  font-weight: bold;
+  color: #fff;
   width: 100%;
-  background: #48e08d;
-  height: 40px;
   margin-top: 1.5rem;
+  padding: 1rem 0.75rem;
+  line-height: 28px;
+  min-height: 60px;
   border-radius: 0.25rem;
+  background: linear-gradient(135deg, #48e08d 0%, #48cfe0 100%);
+  border: none;
 }
 .Button:hover {
   background: #48cfe0;

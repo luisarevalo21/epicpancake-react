@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import Tabletop from "tabletop";
 import Spinner from "../../components/Spinner/Spinner";
 import Modal from "../Modal/Modal";
-
+import Button from "../../components/Button/Button";
 class ExGyms extends Component {
   state = {
     gyms: [
@@ -134,9 +134,9 @@ class ExGyms extends Component {
         <ul>{list}</ul>
         <div className={classes.Button_Div}>
           {/* <Link to="https://docs.google.com/forms/d/e/1FAIpQLSfYRLhE5BUMlLOGo9Jykq023zLSYnFXTFamf0uKg6x8teRl4w/viewform"> */}
-          <button className={classes.Button} onClick={this.handleClick}>
+          <Button clicked={this.handleClick} type="signup">
             Sign Up
-          </button>
+          </Button>
           {/* </Link> */}
         </div>
         <a href="https://telegra.ph/PokeRaiderBot-09-16">

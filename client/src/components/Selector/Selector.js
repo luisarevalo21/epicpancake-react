@@ -8,10 +8,17 @@ const options = [
   { value: "vanilla", label: "Vanilla" }
 ];
 const customStyles = {
-  option: (provided, state) => ({
+  option: (provided, state, height = "60px") => ({
     ...provided,
     fontWeight: state.isDisabled ? "bold" : null,
-    color: state.isDisabled ? "black" : null
+    color: state.isDisabled ? "black" : null,
+    height: height
+  }),
+  control: base => ({
+    ...base,
+    height: 35,
+    minHeight: 60,
+    cursor: "pointer"
   })
   //   singleValue: (provided, state) => {
   //     const opacity = state.isDisabled ? 1 : 0.5;
@@ -44,7 +51,7 @@ const selector = props => {
           {/* <div className="form-group"> */}
           <input
             type="time"
-            className="form-control"
+            className={["form-control", classes.Input].join(" ")}
             placeholder="Time"
             required=""
             data-fillr-id="1465670472"
