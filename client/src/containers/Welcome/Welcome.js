@@ -47,7 +47,7 @@ class Welcome extends Component {
           text="https://t.me/joinchat/GMGPjERr5AohCNVe7VykMw"
         />
         <Paragraph
-          details="The following link will take you to our sister group R/ES/SP PoGo Raids where they raid in Richmond,  El Sorbrante, and San Pablo "
+          details="The following link will take you to our sister group R/ES/SP PoGo Raids where they raid in Richmond,  El Sobrante, and San Pablo "
           title="R/ES/SP PoGo Raids "
           link="https://t.me/joinchat/Go4FV0muowQPrU8LIrA9yQ"
           text="https://t.me/joinchat/Go4FV0muowQPrU8LIrA9yQ"
