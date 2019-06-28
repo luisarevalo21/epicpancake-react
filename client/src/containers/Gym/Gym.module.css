@@ -35,6 +35,14 @@
   color: #6c7d8e;
   padding: 0.25em;
 }
+.Raidlist {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: -9999px;
+  overflow: auto;
+  resize: vertical;
+}
 /* 
 .Gym_Container {
   background: #182029;
