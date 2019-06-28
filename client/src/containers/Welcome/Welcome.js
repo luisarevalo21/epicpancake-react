@@ -47,6 +47,18 @@ class Welcome extends Component {
           text="https://t.me/joinchat/GMGPjERr5AohCNVe7VykMw"
         />
         <Paragraph
+          details="The following link will take you to our sister group R/ES/SP PoGo Raids where they raid in Richmond,  El Sorbrante, and San Pablo "
+          title="R/ES/SP PoGo Raids "
+          link="https://t.me/joinchat/Go4FV0muowQPrU8LIrA9yQ"
+          text="https://t.me/joinchat/Go4FV0muowQPrU8LIrA9yQ"
+        />
+        <Paragraph
+          details="Used for posting and (and RSVPing to) verified raids. No chatting. In R/ES/SP PoGo Raids "
+          title="R/ES/SP Roll & Pin Tracker"
+          link="https://t.me/joinchat/Go4FV0muowQPrU8LIrA9yQ"
+          text="https://t.me/joinchat/Go4FV0muowQPrU8LIrA9yQ"
+        />
+        <Paragraph
           details="Used for organizing and RSVPing to EX Raids. "
           title="EX Raid Chat"
           link="https://t.me/joinchat/GMGPjERrg9zzIvVaglh-9g"
