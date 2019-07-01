@@ -222,7 +222,9 @@ class Gym extends Component {
         />
         {gyms}
 
-        <Button clicked={this.handleClick}>Copy</Button>
+        <Button clicked={this.handleClick} type="copy">
+          Copy
+        </Button>
       </div>
     );
   }

@@ -99,7 +99,7 @@ class ExGyms extends Component {
       console.log(names);
       const gymName = element.listName;
       return (
-        <li>
+        <li key={element.listName}>
           <Link
             to={`ex/${gymName}`}
             className={names}
