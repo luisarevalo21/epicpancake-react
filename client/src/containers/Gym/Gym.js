@@ -3,7 +3,7 @@ import Tabletop from "tabletop";
 import classes from "./Gym.module.css";
 import ListBuilder from "../../components/ListBuilder/ListBuilder";
 import Spinner from "../../components/Spinner/Spinner";
-import Modal from "../Modal/Modal";
+import Modal from "../../components/Modal/Modal";
 import ValorLogo from "../../assets/images/Team_Valor.png";
 import Logo from "../../components/Logo/Logo";
 import MysticLogo from "../../assets/images/Team_Mystic.png";
@@ -23,13 +23,13 @@ class Gym extends Component {
     valorList: [],
     mysticList: [],
     loading: true,
-    copyString: "",
+    copyString: " ",
     copied: false
   };
 
   componentDidMount() {
-    console.log("the id is", this.props.match.params.gymId);
-    console.log("componentdid mount");
+    // console.log("the id is", this.props.match.params.gymId);
+    // console.log("componentdid mount");
     Tabletop.init({
       key:
         "https://docs.google.com/spreadsheets/d/15mSqg-uGZTmQBEu_hqvNzaCiSPGi8JapuV46WmsDRvM/edit?usp=sharing",
@@ -76,11 +76,11 @@ class Gym extends Component {
   //   // }
   // }
   copyString = dataFromChild => {
-    console.log("the data from child is", dataFromChild);
+    // console.log("the data from child is", dataFromChild);
     let copy = this.state.copyString;
     if (!copy.includes(dataFromChild)) {
       copy += dataFromChild + "\n";
-      console.log("my final string", myFinalString);
+      // console.log("my final string", myFinalString);
       this.setState({ copyString: copy });
     }
     // myFinalString += dataFromChild;
@@ -155,7 +155,7 @@ class Gym extends Component {
   };
 
   render() {
-    console.log("my final string ins render ", this.state.copyString);
+    // console.log("my final string ins render ", this.state.copyString);
 
     // if (this.state.copied) {
     //   copy(this.state.copyString, {

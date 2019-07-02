@@ -35,9 +35,7 @@ const navbar = props => (
           </NavLink>
         </NavItem>
         <NavItem>
-          <NavLink to="/welcome" a>
-            Welcome
-          </NavLink>
+          <NavLink to="/welcome">Welcome</NavLink>
         </NavItem>
         <NavItem>
           <NavLink to="/ex">Ex Gyms</NavLink>

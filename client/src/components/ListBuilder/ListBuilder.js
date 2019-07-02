@@ -34,7 +34,7 @@ const listBuilder = props => {
           "via proxy" +
           "\n";
         return (
-          <li>
+          <li key={element[0]}>
             {element[0].trim() +
               ", " +
               element[1].trim() +
@@ -58,7 +58,7 @@ const listBuilder = props => {
           "needs proxy" +
           "\n";
         return (
-          <li>
+          <li key={element[0]}>
             {element[0].trim() +
               ", " +
               element[1].trim() +
@@ -77,7 +77,7 @@ const listBuilder = props => {
           element[3].trim() +
           " \n";
         return (
-          <li>
+          <li key={element[0]}>
             {element[0].trim() +
               ", " +
               element[1].trim() +
@@ -91,7 +91,7 @@ const listBuilder = props => {
   } else {
     // console.log("inside the else");
     group += "No " + props.team + "\n";
-    console.log("group is", group);
+    // console.log("group is", group);
     // childFunction(group);
     return (
       <div
@@ -99,7 +99,7 @@ const listBuilder = props => {
         onChange={props.test(group)}
       >
         <ul>
-          <li>No {props.team}</li>
+          <li key={Math.random()}>No {props.team}</li>
         </ul>
       </div>
     );

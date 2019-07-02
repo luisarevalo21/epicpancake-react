@@ -113,7 +113,7 @@ class RaidBuilder extends Component {
   handleClick = () => {
     // console.log("the selected raid boss is", this.state.selectedGym);
     const time = this.configuringTime(this.state.time);
-    console.log("the time is", time);
+    // console.log("the time is", time);
     let copyString = "/newraid ";
     copyString +=
       this.state.selectedRaidBoss +
@@ -123,7 +123,7 @@ class RaidBuilder extends Component {
       time +
       " " +
       this.state.coordiantes;
-    console.log(copyString);
+    // console.log(copyString);
     this.setState({ copyString: copyString, copied: true });
   };
   render() {
@@ -176,7 +176,7 @@ class RaidBuilder extends Component {
         >
           <button>Click here to show popup</button>
         </Tooltip> */}
-        <Button clicked={this.handleClick} type="copy"/>
+        <Button clicked={this.handleClick} type="copy" />
         {/* <label style={{ color: "#6c7d8e" }}>Start Time</label>
         {/* <div className="form-group"> */}
         {/* <input

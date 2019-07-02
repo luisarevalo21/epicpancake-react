@@ -3,8 +3,9 @@ import classes from "./ExGyms.module.css";
 import { Link } from "react-router-dom";
 import Tabletop from "tabletop";
 import Spinner from "../../components/Spinner/Spinner";
-import Modal from "../Modal/Modal";
+import Modal from "../../components/Modal/Modal";
 import Button from "../../components/Button/Button";
+
 class ExGyms extends Component {
   state = {
     gyms: [
@@ -68,7 +69,11 @@ class ExGyms extends Component {
       simpleSheet: true
     });
   }
-
+  //take off incase
+  handleHide = () => {
+    console.log("hiding was triggered");
+    this.setState({ loading: false });
+  };
   showInfo = (data, tabletop) => {
     const active = [];
     this.state.gyms.map(element => {
@@ -88,15 +93,15 @@ class ExGyms extends Component {
     window.location.href = "https://goo.gl/forms/5fhu41K2qYhgkeTx2";
   };
   render() {
-    let spinner = null;
-    if (this.state.loading) {
-      spinner = <Spinner />;
-    }
+    // let spinner = null;
+    // if (this.state.loading) {
+    //   spinner = <Spinner />;
+    // }
     const list = this.state.gyms.map(element => {
       const names = this.state.active_gyms.includes(element.listName)
         ? `${classes.newStyle}`
         : "";
-      console.log(names);
+      // console.log(names);
       const gymName = element.listName;
       return (
         <li key={element.listName}>
@@ -130,7 +135,7 @@ class ExGyms extends Component {
       <div className={classes.ExGyms}>
         <h1>Ex Raid Gyms</h1>
         {/* remove if need be */}
-        {/* <Modal show={this.state.loading} /> */}
+        <Modal show={this.state.loading} hide={this.handleHide} />
         <ul>{list}</ul>
         <div className={classes.Button_Div}>
           {/* <Link to="https://docs.google.com/forms/d/e/1FAIpQLSfYRLhE5BUMlLOGo9Jykq023zLSYnFXTFamf0uKg6x8teRl4w/viewform"> */}
