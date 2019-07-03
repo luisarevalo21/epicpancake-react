@@ -11,8 +11,6 @@ import InstinctLogo from "../../assets/images/Team_Instinct.png";
 import Button from "../../components/Button/Button";
 import copy from "copy-to-clipboard";
 
-let myFinalString = "";
-
 class Gym extends Component {
   state = {
     // id: this.props.match.params.gymId,
@@ -23,7 +21,7 @@ class Gym extends Component {
     valorList: [],
     mysticList: [],
     loading: true,
-    copyString: " ",
+    copyString: "",
     copied: false
   };
 
@@ -129,7 +127,7 @@ class Gym extends Component {
       const date = array[0][4];
       copyString += date + "\n";
       const time = array[0][5];
-      copyString += time + "\n";
+      copyString += time + " \n";
       // console.log("the copy string is", copyString);
       const instinctList = array.filter(element => element[2] === "Instinct");
       const mysticList = array.filter(element => element[2] === "Mystic");
@@ -147,11 +145,17 @@ class Gym extends Component {
         mysticList,
         loading: false,
         //change final string
-        copyString: myFinalString
+        copyString: copyString
       });
     } else {
       this.setState({ loading: false, copyString: copyString });
     }
+  };
+
+  //take off incase
+  handleHide = () => {
+    console.log("hiding was triggered");
+    this.setState({ loading: false });
   };
 
   render() {
@@ -219,6 +223,7 @@ class Gym extends Component {
           ref="input"
           type="text"
           value={this.state.copyString}
+          readOnly
         />
         {gyms}
 

@@ -34,7 +34,7 @@ const listBuilder = props => {
           "via proxy" +
           "\n";
         return (
-          <li key={element[0]}>
+          <li key={element[1]}>
             {element[0].trim() +
               ", " +
               element[1].trim() +
@@ -58,7 +58,7 @@ const listBuilder = props => {
           "needs proxy" +
           "\n";
         return (
-          <li key={element[0]}>
+          <li key={element[1]}>
             {element[0].trim() +
               ", " +
               element[1].trim() +
@@ -77,7 +77,7 @@ const listBuilder = props => {
           element[3].trim() +
           " \n";
         return (
-          <li key={element[0]}>
+          <li key={element[1]}>
             {element[0].trim() +
               ", " +
               element[1].trim() +
