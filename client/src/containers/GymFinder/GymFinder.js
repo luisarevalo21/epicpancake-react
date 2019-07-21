@@ -86,8 +86,8 @@ class GymFinder extends Component {
         {/* <div style={{ width: "100%", height: "50vh" }}>
           <GoogleMapReact
             bootstrapURLKeys={{
-              key: "AIzaSyCJDjV4MIrjB9iBfGps4EsWnSMOmUcbkaQ"
-            }}
+
+key            }}
             defaultCenter={this.props.center}
             defaultZoom={this.props.zoom}
           >
