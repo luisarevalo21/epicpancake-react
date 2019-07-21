@@ -1,0 +1,9 @@
+.SelectGymLink {
+  color: #48e08d;
+}
+
+.SelectGymLink a:hover {
+  text-decoration: none !important;
+  color: #fff !important ;
+  font-weight: bold;
+}
