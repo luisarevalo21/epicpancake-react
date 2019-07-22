@@ -34,6 +34,9 @@ app.get("/ex", (req, res) => {
 app.get("/welcome", (req, res) => {
   res.sendFile(path.join(__dirname + "/client/build/index.html"));
 });
+app.get("/gymfinder", (req, res) => {
+  res.sendFile(path.join(__dirname + "/client/build/index.html"));
+});
 // app.get("/", (req, res) => {
 //   console.log("hello world");
 

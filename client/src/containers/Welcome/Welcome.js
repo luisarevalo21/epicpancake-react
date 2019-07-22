@@ -21,9 +21,8 @@ class Welcome extends Component {
       { name: "Katie 🔥38", link: "" },
       { name: "@SteveHella / Steven ❄️40", link: "https://t.me/SteveHella" },
       { name: "@Ghardhar / Gary 🔥40", link: "https://t.me/Ghardhar" },
-      { name: "@VivaLasViolence / Ian G 🔥40", link: "https://t.me/" },
-      { name: "@PookieMom / Marianne 🔥40", link: "https://t.me/PookieMom" }
-    ]
+      { name: "@VivaLasViolence / Ian G 🔥40", link: "https://t.me/" }    
+      ]
   };
   render() {
     const { admins } = this.state;

@@ -7,6 +7,7 @@ import { Route, Switch } from "react-router-dom";
 import Welcome from "./containers/Welcome/Welcome";
 import ExGyms from "./containers/Ex_Gyms/ExGyms";
 import Gym from "./containers/Gym/Gym";
+import GymFinder from "./containers/GymFinder/GymFinder";
 
 class App extends Component {
   // state = {
@@ -62,6 +63,8 @@ class App extends Component {
           <Route path="/welcome" component={Welcome} />
           <Route path="/ex/:gymId" component={Gym} />
           <Route path="/ex" component={ExGyms} />
+          <Route path="/gymfinder" component={GymFinder} />
+
           {/* <Route
             exact
             // path="/https://www.paypal.me/theepicpancake"

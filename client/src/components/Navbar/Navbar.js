@@ -41,6 +41,9 @@ const navbar = props => (
           <NavLink to="/ex">Ex Gyms</NavLink>
         </NavItem>
         <NavItem>
+          <NavLink to="/gymfinder">Gym Finder</NavLink>
+        </NavItem>
+        <NavItem>
           <a href="https://www.paypal.me/theepicpancake">Donate</a>
           {/* <NavLink to="https://www.paypal.me/theepicpancake">Donate</NavLink> */}
         </NavItem>
