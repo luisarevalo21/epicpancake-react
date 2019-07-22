@@ -1,5 +1,6 @@
 .SelectGymLink {
   color: #48e08d;
+  text-decoration: underline;
 }
 
 .SelectGymLink a:hover {
