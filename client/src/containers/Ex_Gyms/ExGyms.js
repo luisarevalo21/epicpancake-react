@@ -35,6 +35,7 @@ class ExGyms extends Component {
         listName: "Lamoine Park, Richmond (Cheese Park)"
       },
       { name: "Lefty Gomez", listName: "Lefty Gomez Plaque, Rodeo" },
+      { name: "Nina Zeitler", listName: "Nina Zeitler" },
       {
         name: "Pinole Point Business Park Fountain A",
         listName: "Pt. Pinole Business Park Fountain, Richmond"
