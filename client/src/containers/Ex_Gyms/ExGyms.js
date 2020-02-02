@@ -54,9 +54,14 @@ class ExGyms extends Component {
         listName: "Starbucks, Richmond Parkway location"
       },
       {
-        name: "Starbucks (San Pablo Dam Road)",
-        listName: "Starbucks, San Pablo Dam Rd. location (El Sob/San Pablo)"
+        name: "Tshusima Street Park, Hercules",
+        listName: "Tshusima Street Park, Hercules"
       }
+
+      // {
+      //   name: "Starbucks (San Pablo Dam Road)",
+      //   listName: "Starbucks, San Pablo Dam Rd. location (El Sob/San Pablo)"
+      // }
     ],
     active_gyms: [],
     loading: true
@@ -78,6 +83,8 @@ class ExGyms extends Component {
   showInfo = (data, tabletop) => {
     const active = [];
     this.state.gyms.map(element => {
+      // console.log("THE ELEMENT IS ", tabletop);
+
       if (tabletop.sheets(element.listName).toArray().length !== 0) {
         active.push(element.listName);
       }
